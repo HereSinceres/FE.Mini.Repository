@@ -1,0 +1,2 @@
+ {%if $smarty.server.HTTPS && $smarty.server.HTTPS == "on"%}
+ {%/if%}
