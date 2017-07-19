@@ -1,0 +1,3 @@
+$("h2:contains('cow')").html(function(_, html) {
+   return html.replace(/(cow)/g, '<span class="smallcaps">$1</span>');
+});
