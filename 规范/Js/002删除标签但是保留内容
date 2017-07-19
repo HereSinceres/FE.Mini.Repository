@@ -1,0 +1,2 @@
+var spans = $('span');
+spans.contents().unwrap();
